@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <title>Lista de la compra</title>
 </head>
 
@@ -25,9 +25,12 @@
     </div>
     <article>
       <ul>
-        <li><input type="checkbox" name="pan" id="">Pan <span>0.75€</span></li>
-        <li><input type="checkbox" name="azucar" id="">Azúcar <span></span></li>
-        <li><input type="checkbox" name="leche" id="">Leche <span>1.20€</span></li>
+        <li><label><input type="checkbox" name="pan" id="">
+            <span class="crossed">Pan</span> <span class="nocrossed">0.75€</span>
+          </label></li>
+        <li class="nocrossed"><label><input type="checkbox" name="azucar" id="">Azúcar <span></span></label></li>
+        <li><label><input type="checkbox" name="leche" id=""><span class="crossed">Leche</span> <span
+              class="nocrossed">1.20€</span></label></li>
       </ul>
       <form action="">
       </form>
@@ -36,7 +39,8 @@
     <aside>1.95€</aside>
   </section>
   <footer>
-    <img src="cssvalidator" alt="Validación CSS">
+    <img src="http://jigsaw.w3.org/css-validator/images/vcss" style="border:0;width:88px;height:31px"
+      alt="¡CSS Válido!">
   </footer>
 </body>
 
