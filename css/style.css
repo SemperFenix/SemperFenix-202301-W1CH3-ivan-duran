@@ -10,7 +10,7 @@ header {
   padding: 0 15px;
   align-items: center;
   background-color: steelblue;
-  height: 90px;
+  height: 10vh;
 }
 h1 {
   font-weight: 800;
@@ -74,6 +74,7 @@ section > div > a + span {
 section {
   background-color: bisque;
   margin: 0;
+  height: 80vh;
 }
 article + div {
   border-bottom: 1px solid mediumorchid;
@@ -90,7 +91,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   background-color: steelblue;
-  height: 70px;
+  height: 10vh;
 }
 
 article > ul {
@@ -120,6 +121,7 @@ li > label > span ~ span::after {
   margin: -2px 10px;
   content: "⨉";
 }
+
 ul > li:hover {
   color: orange;
 }
@@ -132,4 +134,10 @@ aside {
   display: flex;
   justify-content: flex-end;
   font-size: 1.4rem;
+  padding: 20px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
 }
